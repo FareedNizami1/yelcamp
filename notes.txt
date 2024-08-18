@@ -1,0 +1,63 @@
+Step 1: Create a directory call YelpCamp
+Step 2: Open Git Bash, move into directory of YelpCamp
+Step 3: Type "npm init -y" to initialize node package manager
+Step 4: Then type "npm i express mongoose ejs"
+Step 5: Create a file "app.js" in YelpCamp directory
+
+
+npm install cloudinary@1.41.3
+
+npm install multer-storage-cloudinary@4.0.0
+
+npm install multer@1.4.5-lts.1
+
+
+YelpCamp/
+├─ cloudinary/
+│  ├─ index.js
+├─ app.js
+├─ middleware.js
+├─ schemas.js
+├─ controllers/
+│  ├─ campgrounds.js
+│  ├─ reviews
+│  ├─ users.js
+├─ models/
+│  ├─ campground.js
+│  ├─ review.js
+│  ├─ user.js
+├─ public/
+│  ├─ javascripts/
+│  │  ├─ clusterMap.js
+│  │  ├─ validateForms.js
+│  │  ├─ showPageMap.js
+│  ├─ stylesheets/
+│  │  ├─ stars.css
+├─ routes/
+│  ├─ campgrounds.js
+│  ├─ reviews.js
+│  ├─ users.js
+├─ seeds/
+│  ├─ cities.js
+│  ├─ index.js
+│  ├─ seedHelpers.js
+├─ utils/
+│  ├─ catchAsync.js
+│  ├─ ExpressError.js
+├─ views/
+│  ├─ campgrounds/
+│  │  ├─ edit.ejs
+│  │  ├─ index.ejs
+│  │  ├─ new.ejs
+│  │  ├─ show.ejs
+│  ├─ layouts/
+│  │  ├─ boilerplate.ejs
+│  ├─ partials/
+│  │  ├─ flash.ejs
+│  │  ├─ footer.ejs
+│  │  ├─ navbar.ejs|
+│  ├─ users/
+│  │  ├─ login.ejs
+│  │  ├─ register.ejs
+│  ├─ error.ejs
+│  ├─ home.ejs
