@@ -1,6 +1,8 @@
 # YelpCamp
 
-YelpCamp is a Node.js web application that allows users to create and review campgrounds. The application utilizes various technologies such as Express, Mongoose, and Passport for authentication.
+YelpCamp is a full-featured <strong>Node.js</strong> web application designed to provide a platform for users to explore, create, and review campgrounds. The application leverages modern web technologies, including Express for server-side logic, Mongoose for managing MongoDB interactions, and Passport for secure user authentication. Additionally, MapTiler API is integrated to provide an interactive map feature, enhancing the user experience by allowing users to view and explore campground locations visually.
+
+The website includes essential features such as user registration, login functionality, and the ability to leave reviews on various campgrounds. YelpCamp is designed to be user-friendly and responsive, ensuring a seamless experience across different devices.
 
 ## Table of Contents
 
