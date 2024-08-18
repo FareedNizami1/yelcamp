@@ -22,8 +22,7 @@ YelpCamp is a Node.js web application that allows users to create and review cam
    cd YelpCamp
    
 2. **Install dependencies:**
-   bash
-   Copy code
+   ```bash
    npm install
    
 3. **Set up the environment variables:**
@@ -43,6 +42,7 @@ These variables are required for image uploads to Cloudinary.
 
 5. **Project Structure**
 The project is structured as follows:
+```bash
 YelpCamp/
 ├── cloudinary/
 │   └── index.js
@@ -98,7 +98,7 @@ YelpCamp/
 ├── .gitignore
 └── README.md (this file)
 
-6. **Usage**
+7. **Usage**
 Campground Routes
 GET /campgrounds - View all campgrounds
 GET /campgrounds/new - Form to create a new campground
