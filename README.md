@@ -35,12 +35,13 @@ Start the server:
 
 4. **Environment Variables**
 Create a .env file in the root directory with the following variables:
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_KEY=your_cloud_key
-CLOUDINARY_SECRET=your_cloud_secret
+  ```bash
+   CLOUDINARY_CLOUD_NAME=your_cloud_name
+   CLOUDINARY_KEY=your_cloud_key
+   CLOUDINARY_SECRET=your_cloud_secret
 These variables are required for image uploads to Cloudinary.
 
-5. **Project Structure**
+6. **Project Structure**
 The project is structured as follows:
    ```bash
    YelpCamp/
@@ -100,32 +101,34 @@ The project is structured as follows:
 
 
 7. **Usage**
-Campground Routes
-GET /campgrounds - View all campgrounds
-GET /campgrounds/new - Form to create a new campground
-POST /campgrounds - Create a new campground
-GET /campgrounds/:id - View a specific campground
-GET /campgrounds/:id/edit - Form to edit a campground
-PUT /campgrounds/:id - Update a campground
-DELETE /campgrounds/:id - Delete a campground
+***Campground Routes***
+  ```bash
+      GET /campgrounds - View all campgrounds
+      GET /campgrounds/new - Form to create a new campground
+      POST /campgrounds - Create a new campground
+      GET /campgrounds/:id - View a specific campground
+      GET /campgrounds/:id/edit - Form to edit a campground
+      PUT /campgrounds/:id - Update a campground
+      DELETE /campgrounds/:id - Delete a campground
 
-Review Routes
-POST /campgrounds/:id/reviews - Create a new review for a campground
-DELETE /campgrounds/:id/reviews/:reviewId - Delete a review
-Schemas
-Schemas are defined in the schemas.js file using Joi for validation:
+***Review Routes***
+  ```bash
+      POST /campgrounds/:id/reviews - Create a new review for a campground
+      DELETE /campgrounds/:id/reviews/:reviewId - Delete a review
 
-campgroundSchema: Validates campground data before saving.
-reviewSchema: Validates review data before saving.
-Middleware
-Middleware functions are defined in the middleware.js file:
+***Schemas***
+   Schemas are defined in the schemas.js file using Joi for validation: <br>
+   campgroundSchema: Validates campground data before saving. <br>
+   reviewSchema: Validates review data before saving.<br>
 
-isLoggedIn: Checks if the user is authenticated.
-storeReturnTo: Stores the return URL in the session.
-validateCampground: Validates the campground data before saving.
-isAuthor: Checks if the current user is the author of the campground.
-isReviewAuthor: Checks if the current user is the author of the review.
-validateReview: Validates the review data before saving.
+***Middleware***
+   Middleware functions are defined in the middleware.js file:<br>
+   isLoggedIn: Checks if the user is authenticated.<br>
+   storeReturnTo: Stores the return URL in the session.<br>
+   validateCampground: Validates the campground data before saving.<br>
+   isAuthor: Checks if the current user is the author of the campground.<br>
+   isReviewAuthor: Checks if the current user is the author of the review.<br>
+   validateReview: Validates the review data before saving.<br>
 
 7. **Contributing**
 Contributions are welcome! Please fork this repository, make your changes, and submit a pull request.
