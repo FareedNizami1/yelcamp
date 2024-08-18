@@ -35,13 +35,15 @@ Start the server:
 
 4. **Environment Variables**
 Create a .env file in the root directory with the following variables:
-  ```bash
+   ```bash
    CLOUDINARY_CLOUD_NAME=your_cloud_name
    CLOUDINARY_KEY=your_cloud_key
    CLOUDINARY_SECRET=your_cloud_secret
-These variables are required for image uploads to Cloudinary.
 
-6. **Project Structure**
+These variables are required for image uploads to Cloudinary. <br>
+
+
+5. **Project Structure**
 The project is structured as follows:
    ```bash
    YelpCamp/
@@ -102,19 +104,18 @@ The project is structured as follows:
 
 7. **Usage**
 ***Campground Routes***
-  ```bash
-      GET /campgrounds - View all campgrounds
-      GET /campgrounds/new - Form to create a new campground
-      POST /campgrounds - Create a new campground
-      GET /campgrounds/:id - View a specific campground
-      GET /campgrounds/:id/edit - Form to edit a campground
-      PUT /campgrounds/:id - Update a campground
-      DELETE /campgrounds/:id - Delete a campground
+     ```bash
+         GET /campgrounds - View all campgrounds
+         GET /campgrounds/new - Form to create a new campground
+         POST /campgrounds - Create a new campground
+         GET /campgrounds/:id - View a specific campground
+         GET /campgrounds/:id/edit - Form to edit a campground
+         PUT /campgrounds/:id - Update a campground
+         DELETE /campgrounds/:id - Delete a campground
 
 ***Review Routes***
-  ```bash
-      POST /campgrounds/:id/reviews - Create a new review for a campground
-      DELETE /campgrounds/:id/reviews/:reviewId - Delete a review
+      POST /campgrounds/:id/reviews - Create a new review for a campground <br>
+      DELETE /campgrounds/:id/reviews/:reviewId - Delete a review<br>
 
 ***Schemas***
    Schemas are defined in the schemas.js file using Joi for validation: <br>
