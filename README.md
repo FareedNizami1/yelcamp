@@ -28,9 +28,10 @@ YelpCamp is a Node.js web application that allows users to create and review cam
 3. **Set up the environment variables:**
 Create a .env file in the root directory and add the necessary environment variables. (See the Environment Variables section for more details.)
 Start the server:
-```bash
-npm start
-The application will run on http://localhost:3000
+   ```bash
+   npm start
+   The application will run on http://localhost:3000
+
 
 4. **Environment Variables**
 Create a .env file in the root directory with the following variables:
@@ -41,61 +42,61 @@ These variables are required for image uploads to Cloudinary.
 
 5. **Project Structure**
 The project is structured as follows:
-```bash
-YelpCamp/
-├── cloudinary/
-│   └── index.js
-├── controllers/
-│   ├── campgrounds.js
-│   ├── reviews.js
-│   └── users.js
-├── models/
-│   ├── campground.js
-│   ├── review.js
-│   └── user.js
-├── public/
-│   ├── javascripts/
-│   │   ├── clusterMap.js
-│   │   ├── validateForms.js
-│   │   └── showPageMap.js
-│   └── stylesheets/
-│       ├── stars.css
-├── routes/
-│   ├── campgrounds.js
-│   ├── reviews.js
-│   └── users.js
-├── seeds/
-│   ├── cities.js
-│   ├── index.js
-│   └── seedHelpers.js
-├── utils/
-│   ├── catchAsync.js
-│   └── ExpressError.js
-├── views/
-│   ├── campgrounds/
-│   │   ├── edit.ejs
-│   │   ├── index.ejs
-│   │   ├── new.ejs
-│   │   └── show.ejs
-│   ├── layouts/
-│   │   ├── boilerplate.ejs
-│   └── partials/
-│       ├── flash.ejs
-│       ├── footer.ejs
-│       ├── navbar.ejs
-│   ├── users/
-│       ├── login.ejs
-│       ├── register.ejs
-│   ├── error.ejs
-│   └── home.ejs
-├── app.js
-├── middleware.js
-├── schemas.js
-├── package.json
-├── package-lock.json
-├── .env
-├── .gitignore
-└── README.md (this file)
+   ```bash
+   YelpCamp/
+   ├── cloudinary/
+   │   └── index.js
+   ├── controllers/
+   │   ├── campgrounds.js
+   │   ├── reviews.js
+   │   └── users.js
+   ├── models/
+   │   ├── campground.js
+   │   ├── review.js
+   │   └── user.js
+   ├── public/
+   │   ├── javascripts/
+   │   │   ├── clusterMap.js
+   │   │   ├── validateForms.js
+   │   │   └── showPageMap.js
+   │   └── stylesheets/
+   │       ├── stars.css
+   ├── routes/
+   │   ├── campgrounds.js
+   │   ├── reviews.js
+   │   └── users.js
+   ├── seeds/
+   │   ├── cities.js
+   │   ├── index.js
+   │   └── seedHelpers.js
+   ├── utils/
+   │   ├── catchAsync.js
+   │   └── ExpressError.js
+   ├── views/
+   │   ├── campgrounds/
+   │   │   ├── edit.ejs
+   │   │   ├── index.ejs
+   │   │   ├── new.ejs
+   │   │   └── show.ejs
+   │   ├── layouts/
+   │   │   ├── boilerplate.ejs
+   │   └── partials/
+   │       ├── flash.ejs
+   │       ├── footer.ejs
+   │       ├── navbar.ejs
+   │   ├── users/
+   │       ├── login.ejs
+   │       ├── register.ejs
+   │   ├── error.ejs
+   │   └── home.ejs
+   ├── app.js
+   ├── middleware.js
+   ├── schemas.js
+   ├── package.json
+   ├── package-lock.json
+   ├── .env
+   ├── .gitignore
+   └── README.md (this file)
 
 
 7. **Usage**
